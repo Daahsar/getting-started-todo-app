@@ -4,7 +4,7 @@ const GREETINGS = [
     "Ta-da!",
 ];
 
-module.exports = async (req, res) => {
+export default async (req, res) => {
     res.send({
         greeting: GREETINGS[ Math.floor( Math.random() * GREETINGS.length )],
     });
