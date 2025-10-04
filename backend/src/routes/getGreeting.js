@@ -1,6 +1,6 @@
 const GREETINGS = [
     "Boom!",
-    "Check Out My To-Do App!",
+    "Check out my to-do app!",
     "Ta-da!",
 ];
 
